@@ -1,0 +1,27 @@
+{
+  "name": "njs2Demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --ext .js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "njs2-type": "project",
+  "devDependencies": {
+    "serverless-offline": "^7.0.0",
+    "eslint": "^8.20.0",
+    "eslint-config-njs2-lint": "^1.0.0",
+    "nodemon": "^2.0.12",
+    "prettier": "2.0.5",
+    "serverless-prune-plugin": "^1.5.1",
+    "aws-sdk": "^2.1345.0"
+  },
+  "dependencies": {
+    "@njs2/base": "^2.2.0",
+    "@njs2/sql": "^2.1.0",
+    "mysql2": "^3.2.0"
+  }
+}
