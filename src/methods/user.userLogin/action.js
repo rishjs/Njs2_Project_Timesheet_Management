@@ -1,7 +1,6 @@
 //import otp library
 const otpGenerator = require('otp-generator')
 
-
 class UserUserLoginAction extends baseAction {
 
   async executeMethod() {
