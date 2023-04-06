@@ -7,54 +7,6 @@
   },
   "item": [
     {
-      "name": "helloWorld",
-      "request": {
-        "method": "GET",
-        "header": [
-          {
-            "key": "enc_state",
-            "value": "1",
-            "disabled": true,
-            "description": "Encryption status: 1- Enable, 2- Disable",
-            "type": "text"
-          },
-          {
-            "key": "lng_key",
-            "value": "en",
-            "disabled": true,
-            "description": "Langauage key",
-            "type": "text"
-          }
-        ],
-        "url": {
-          "raw": "http://localhost:3000/helloWorld",
-          "host": [
-            "http://localhost:3000"
-          ],
-          "path": [
-            "helloWorld"
-          ],
-          "query": [
-            {
-              "key": "inp_vals",
-              "value": "",
-              "disabled": true,
-              "description": "inp_vals",
-              "type": "text"
-            },
-            {
-              "key": "data",
-              "value": "",
-              "disabled": true,
-              "description": "Encrypted data and url encode(URLSearchParams) the encrypted data to handle special characters",
-              "type": "text"
-            }
-          ]
-        }
-      },
-      "response": []
-    },
-    {
       "name": "issue/chargeTime",
       "request": {
         "method": "POST",

@@ -22,7 +22,7 @@ class UserUserLoginAction extends baseAction {
       otp,expireIn
      }
     await userLib.updateUserDetails(emailId,updateData);
-      this.setResponse('SUCCESS');
+      this.setResponse('LOGIN');
       return updateData;
     } catch (e) {
       console.log(`Error: API: UserUserLogin`, e);

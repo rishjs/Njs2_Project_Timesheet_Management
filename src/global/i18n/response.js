@@ -50,8 +50,13 @@ const RESPONSE = {
     }
   },
   ISSUE_NOT_EXIST: {
-    responseCode: 1007, responseMessage: {
+    responseCode: 1011, responseMessage: {
       "en": "Issue doesnot exist"
+    }
+  },
+  LOGIN: {
+    responseCode: 1012, responseMessage: {
+      "en": "Login Successful"
     }
   },
 };
