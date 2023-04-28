@@ -67,7 +67,7 @@ class ViewIssuesAction extends baseAction {
         this.setResponse('ISSUE_NOT_EXIST');
         return {}; 
       }
-      }
+    }
     }
     } catch (e) {
       console.log(`Error: API: ViewIssues`, e);

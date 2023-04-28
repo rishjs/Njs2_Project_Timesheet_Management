@@ -11,13 +11,13 @@
   "license": "ISC",
   "njs2-type": "project",
   "devDependencies": {
-    "serverless-offline": "^7.0.0",
+    "aws-sdk": "^2.1345.0",
     "eslint": "^8.20.0",
     "eslint-config-njs2-lint": "^1.0.0",
-    "nodemon": "^2.0.12",
+    "nodemon": "^2.0.22",
     "prettier": "2.0.5",
-    "serverless-prune-plugin": "^1.5.1",
-    "aws-sdk": "^2.1345.0"
+    "serverless-offline": "^7.0.0",
+    "serverless-prune-plugin": "^1.5.1"
   },
   "dependencies": {
     "@njs2/base": "^2.2.0",
